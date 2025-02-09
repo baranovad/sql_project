@@ -18,8 +18,8 @@ Business Analysis: Use SQL to answer key business questions and extract insights
 ### Project Structure:
 ### 1. Database Setup:
 
-*** Database Creation: *** Create a database called p1_retail_db.
-*** Table Creation: *** Create a table named retail_sales to store sales data. This table will have columns such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+***Database Creation:*** Create a database called p1_retail_db.
+***Table Creation:*** Create a table named retail_sales to store sales data. This table will have columns such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 ```
 CREATE DATABASE p1_retail_db;
 
@@ -41,10 +41,10 @@ CREATE TABLE retail_sales
 
 ### 2. Data Exploration & Cleaning:
 
-*** Record Count: *** Count the total number of records in the dataset.
-*** Customer Count: *** Identify the number of unique customers.
-*** Category Count: *** List all unique product categories.
-*** Null Value Check: *** Identify and remove records with missing or null values.
+***Record Count:*** Count the total number of records in the dataset.
+***Customer Count:*** Identify the number of unique customers.
+***Category Count:*** List all unique product categories.
+***Null Value Check:*** Identify and remove records with missing or null values.
 
 ```
 SELECT COUNT(*) FROM retail_sales;
@@ -168,16 +168,16 @@ GROUP BY shift;
 
 ### Findings:
 
-*** Customer Demographics: *** The dataset includes customers from various age groups, with sales spanning across categories like Clothing and Beauty.
-*** High-Value Transactions: *** A number of transactions show a total sale amount greater than 1000, indicating premium purchases.
-*** Sales Trends: *** Monthly analysis highlights seasonal variations and trends in sales performance.
-*** Customer Insights: *** The analysis identifies high-spending customers and popular product categories.
+***Customer Demographics:*** The dataset includes customers from various age groups, with sales spanning across categories like Clothing and Beauty.
+***High-Value Transactions:*** A number of transactions show a total sale amount greater than 1000, indicating premium purchases.
+***Sales Trends:*** Monthly analysis highlights seasonal variations and trends in sales performance.
+***Customer Insights:*** The analysis identifies high-spending customers and popular product categories.
 
 ### Reports:
 
-*** Sales Summary: *** A detailed summary of total sales, customer demographics, and category performance.
-*** Trend Analysis: *** Insights into sales trends by month and shift.
-*** Customer Insights: *** Information on top customers and unique customers in each product category.
+***Sales Summary:*** A detailed summary of total sales, customer demographics, and category performance.
+***Trend Analysis:*** Insights into sales trends by month and shift.
+***Customer Insights:*** Information on top customers and unique customers in each product category.
 
 ### Conclusion:
 
